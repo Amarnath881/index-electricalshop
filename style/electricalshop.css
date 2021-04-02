@@ -1,4 +1,4 @@
-.body{
+body{
     margin:0px;
     padding:0px;
 }
@@ -9,6 +9,41 @@
     background-color:darkslategray;
     display: flex;
 }
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  
 .preheading{
     width:100%;
 }
@@ -80,11 +115,11 @@
 }
 
 .feature_coln{
-    margin:41px;
-    width: 15%;
-    height:150px;
+    margin:45px auto;
+    width: 12%;
+    height:103px;
     background-color: darkolivegreen;
-    border-radius: 48px;
-    float:left;
+    border-radius:90px;
+    float:right;
 
 }
